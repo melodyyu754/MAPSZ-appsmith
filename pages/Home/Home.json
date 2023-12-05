@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home_AllProducts",
-              "name": "AllProducts",
+              "id": "Home_AllAirports",
+              "name": "AllAirports",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

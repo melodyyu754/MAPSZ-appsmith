@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "AllProducts",
+    "name": "AllAirports",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -48,7 +48,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-02T00:20:03Z"
   },
-  "id": "Home_AllProducts",
+  "id": "Home_AllAirports",
   "deleted": false,
   "gitSyncId": "656a752aa2987d28fe9fb17c_656a7833a2987d28fe9fb181"
 }
