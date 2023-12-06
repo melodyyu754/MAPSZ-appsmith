@@ -67,6 +67,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701853771960,
+    "originalBottomRow": 58,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 42,
     "widgetName": "All_Flights",
@@ -485,6 +486,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 15,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

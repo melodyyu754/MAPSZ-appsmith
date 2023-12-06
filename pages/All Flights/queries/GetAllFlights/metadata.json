@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/f/flights"
+        "url": "web:4000/f/flights/1"
       },
       "invalids": [],
       "messages": [],
