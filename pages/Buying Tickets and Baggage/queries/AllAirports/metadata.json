@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "AllAirports",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/passengers"
+        "url": "web:4000/a/airports"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Buying Tickets and Baggage",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -45,9 +45,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-02T00:20:03Z"
   },
-  "id": "Page1_Api1",
+  "id": "Buying Tickets and Baggage_AllAirports",
   "deleted": false,
-  "gitSyncId": "656a752aa2987d28fe9fb17c_656aaa4f7cfe816da1368def"
+  "gitSyncId": "656a752aa2987d28fe9fb17c_656a7833a2987d28fe9fb181"
 }

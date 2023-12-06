@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Home",
-    "slug": "home",
+    "name": "My Baggage and Tickets",
+    "slug": "my-baggage-and-tickets",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1360,
+          "bottomRow": 590,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 65,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home_AllAirports",
-              "name": "AllAirports",
+              "id": "My Baggage and Tickets_Get_My_Tickets",
+              "name": "Get_My_Tickets",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -40,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home",
+        "id": "My Baggage and Tickets",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656a752aa2987d28fe9fb17c_656a752ba2987d28fe9fb17e"
+  "gitSyncId": "656a752aa2987d28fe9fb17c_656aaa467cfe816da1368ded"
 }

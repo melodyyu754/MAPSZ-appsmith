@@ -1,11 +1,11 @@
 {
   "pages": [
     {
-      "id": "Home",
+      "id": "Buying Tickets and Baggage",
       "isDefault": true
     },
     {
-      "id": "Page1",
+      "id": "My Baggage and Tickets",
       "isDefault": false
     }
   ],
@@ -14,6 +14,9 @@
   "unreadCommentThreads": 0,
   "color": "#F4FFDE",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],

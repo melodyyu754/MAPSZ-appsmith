@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home",
+    "pageId": "Buying Tickets and Baggage",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -48,7 +48,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-05T20:33:21Z"
   },
-  "id": "Home_AllFlights",
+  "id": "Buying Tickets and Baggage_AllFlights",
   "deleted": false,
   "gitSyncId": "656a752aa2987d28fe9fb17c_656f89119cd964600d20f4fe"
 }
