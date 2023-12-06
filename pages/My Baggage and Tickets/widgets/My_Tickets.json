@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 1,
+    "topRow": 33,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -64,7 +64,7 @@
     "columnUpdatedAt": 1701832220804,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 47,
-    "widgetName": "Table1",
+    "widgetName": "My_Tickets",
     "defaultPageSize": 0,
     "columnOrder": [
         "passengerID",
@@ -77,7 +77,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 29,
+    "bottomRow": 61,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -87,7 +87,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "boardingGroup": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"boardingGroup\"]))}}",
+            "computedValue": "{{My_Tickets.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"boardingGroup\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "boardingGroup",
@@ -121,7 +121,7 @@
             "verticalAlignment": "CENTER"
         },
         "seatNum": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"seatNum\"]))}}",
+            "computedValue": "{{My_Tickets.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"seatNum\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "seatNum",
@@ -155,7 +155,7 @@
             "verticalAlignment": "CENTER"
         },
         "price": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"price\"]))}}",
+            "computedValue": "{{My_Tickets.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"price\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "price",
@@ -189,7 +189,7 @@
             "verticalAlignment": "CENTER"
         },
         "passengerID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"passengerID\"]))}}",
+            "computedValue": "{{My_Tickets.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"passengerID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "passengerID",
@@ -223,7 +223,7 @@
             "verticalAlignment": "CENTER"
         },
         "flightID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"flightID\"]))}}",
+            "computedValue": "{{My_Tickets.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"flightID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "flightID",
@@ -257,7 +257,7 @@
             "verticalAlignment": "CENTER"
         },
         "class": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"class\"]))}}",
+            "computedValue": "{{My_Tickets.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"class\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "class",
@@ -291,7 +291,7 @@
             "verticalAlignment": "CENTER"
         },
         "ticketID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ticketID\"]))}}",
+            "computedValue": "{{My_Tickets.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ticketID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "ticketID",

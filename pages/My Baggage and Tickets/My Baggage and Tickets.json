@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 590,
+          "bottomRow": 1240,
           "containerStyle": "none",
           "snapRows": 65,
           "parentRowSpace": 1,
@@ -27,6 +27,14 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "My Baggage and Tickets_Get_My_Baggage",
+              "name": "Get_My_Baggage",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "My Baggage and Tickets_Get_My_Tickets",
               "name": "Get_My_Tickets",

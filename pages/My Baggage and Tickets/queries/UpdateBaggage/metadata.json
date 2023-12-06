@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "AllPassengers",
+    "name": "UpdateBaggage",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/passengers"
+        "url": "web:4000/b/baggage"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Buying Tickets and Baggage",
+    "pageId": "My Baggage and Tickets",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{CreateNewTicketForm.formData}}",
+      "body": "{{Update_Baggage.formData}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -52,15 +52,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "CreateNewTicketForm.formData"
+      "Update_Baggage.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-02T00:34:01Z"
+    "createdAt": "2023-12-06T06:47:09Z"
   },
-  "id": "Buying Tickets and Baggage_AllPassengers",
+  "id": "My Baggage and Tickets_UpdateBaggage",
   "deleted": false,
-  "gitSyncId": "656a752aa2987d28fe9fb17c_656a7b79a2987d28fe9fb183"
+  "gitSyncId": "656a752aa2987d28fe9fb17c_657018ed83d2fe3c46bb22ce"
 }

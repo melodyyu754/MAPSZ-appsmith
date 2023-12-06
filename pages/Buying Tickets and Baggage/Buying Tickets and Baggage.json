@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Buying Tickets and Baggage_AllTickets",
-              "name": "AllTickets",
+              "id": "Buying Tickets and Baggage_AllFlights",
+              "name": "AllFlights",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
