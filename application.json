@@ -7,6 +7,26 @@
     {
       "id": "My Baggage and Tickets",
       "isDefault": false
+    },
+    {
+      "id": "New Airline Flights",
+      "isDefault": false
+    },
+    {
+      "id": "All Flights",
+      "isDefault": false
+    },
+    {
+      "id": "Airline Flight Employees",
+      "isDefault": false
+    },
+    {
+      "id": "Crew",
+      "isDefault": false
+    },
+    {
+      "id": "Airports",
+      "isDefault": false
     }
   ],
   "viewMode": false,
