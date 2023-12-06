@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "NewProduct",
+    "name": "AllPassengers",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/product"
+        "url": "web:4000/p/passengers"
       },
       "invalids": [],
       "messages": [],
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{New_Product.formData}}",
+      "body": "{{CreateNewTicketForm.formData}}",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -52,7 +52,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "New_Product.formData"
+      "CreateNewTicketForm.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
@@ -60,7 +60,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-02T00:34:01Z"
   },
-  "id": "Home_NewProduct",
+  "id": "Home_AllPassengers",
   "deleted": false,
   "gitSyncId": "656a752aa2987d28fe9fb17c_656a7b79a2987d28fe9fb183"
 }
